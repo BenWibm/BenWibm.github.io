@@ -1,3 +1,4 @@
-layout: page
-title: "Test"
-permalink:
+---
+layout: post
+title: Test
+---
