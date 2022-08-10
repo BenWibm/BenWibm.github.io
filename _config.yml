@@ -3,4 +3,4 @@ description: 	This is a test website
 markdown: 	kramdown
 theme:		minima
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
