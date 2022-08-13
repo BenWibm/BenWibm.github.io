@@ -1,5 +1,6 @@
 # Site navigation links
 
+main:
 - title: Wetterstation
   url: /wetterstation/
 
