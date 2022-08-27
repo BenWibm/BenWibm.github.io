@@ -1,41 +1,40 @@
-markdown: 		kramdown
-email: benedikt.wibmer(at)student.uibk.ac.at
-
-#remote_theme: pages-themes/minimal@v0.2.0
-#plugins:
-#- jekyll-remote-theme # add this line to the plugins list if you already have one
-
 # set the theme
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-
 # Site Settings
-locale                   : "de-AT"
-title                    : "Benedikt Wibmer"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Benedikt Wibmer"
-description              : "An amazing website."
-url                      : "https://benwibm.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "BenWibm/BenWibm.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : #"/assets/images/bw-logo-2.JPG" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           :  # overrides the website title displayed in the masthead, use " " for no title
+markdown: kramdown
+email: benedikt.wibmer(at)student.uibk.ac.at
+locale: "en-US"
+title: "Benedikt Wibmer"
+title_separator: "-"
+subtitle: # site tagline that appears below site title in masthead
+name: "Benedikt Wibmer"
+description: "Personal website of Benedikt Wibmer."
+url: "https://benwibm.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: # the subpath of your site, e.g. "/blog"
+repository: "BenWibm/BenWibm.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo: #"/assets/images/bw-logo-2.JPG" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 
 # Author sidebar settings
 author:
-  name     : "Benedikt Wibmer"
-  avatar   : "/assets/images/bw-logo-2.JPG"
-  bio      : "Wetter, Schnee, Lawinen, Gletscher."
-  location : "Osttirol/Innsbruck, Österreich"
+  name: "Benedikt Wibmer"
+  avatar: "/assets/images/bw-logo-2.JPG"
+  bio: "Weather, snow, avalanches, glaciers and programming."
+  location: "Osttirol/Innsbruck, Austria"
   links:
       - label: "GitHub"
         icon: "fab fa-fw fa-github"
         url: "https://github.com/BenWibm"
-        
-include: ["_pages"]
+
+# Footer settings
+footer:
+  links:
+      - label: "GitHub"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/BenWibm"
 
 defaults:
   # _pages
@@ -46,3 +45,4 @@ defaults:
       layout: single
       author_profile: true
 
+include: ["_pages"]
